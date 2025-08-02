@@ -19,7 +19,8 @@ body {
 }
 
 form {
-
+  width: 400px;
+  
 }
 
 form .inputs input{
@@ -44,7 +45,6 @@ form button {
   cursor:pointer;
   margin: 10px 0;
   transition:.15s;
-
 }
 
 form button:hover {
@@ -56,5 +56,8 @@ form .smalls .small {
   max-resolution: 5px 0;
   font-size: 16px;
 }
+
+
+
 
 
