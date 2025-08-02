@@ -20,7 +20,7 @@ body {
 
 form {
   width: 400px;
-  
+
 }
 
 form .inputs input{
@@ -53,7 +53,7 @@ form button:hover {
 
 form .smalls .small {
   display:block;
-  max-resolution: 5px 0;
+  margin: 5px 0;
   font-size: 16px;
 }
 
