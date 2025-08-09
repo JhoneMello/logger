@@ -20,7 +20,34 @@
 
 });
 
+
+var show = document.getElementById("show");
+
+show.addEventListener("change", function(){
+
+    var senha = document.getElementById("senha");
+
+    var type = senha.getAttribute("type");
+
+    var confirm = document.getElementById("confirm");
+
+    var type = confirm.getAttribute("type");
+
+    if(type === "password"){
+      senha.setAttribute("type", "text"); 
+    } else {
+       senha.setAttribute("type", "password"); 
+    }
+
+    if(type === "password"){
+      confirm.setAttribute("type", "text"); 
+    } else {
+       confirm.setAttribute("type", "password"); 
+    }
+
+});
+
     
      
 
-// sessionStorage.setItem("confirm", password);
+

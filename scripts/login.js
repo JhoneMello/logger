@@ -1,7 +1,7 @@
 
 var login = document.getElementById("login");
 
-login.addEventListener("change", function(){
+login.addEventListener("click", function(){
 
     var user = document.getElementById("userLogin").value;
     var password = document.getElementById("passwordLogin").value;
@@ -14,10 +14,11 @@ login.addEventListener("change", function(){
         alert("Acesso permitido");
         window.location.href = "../pages/allowed.html";
         return;
-    }
+}
     
      alert("Acesso negado.")
 });
+
         
 var show = document.getElementById("show");
 
