@@ -1,7 +1,7 @@
 
 var login = document.getElementById("login");
 
-login.addEventListener("click", function(){
+login.addEventListener("change", function(){
 
     var user = document.getElementById("userLogin").value;
     var password = document.getElementById("passwordLogin").value;
@@ -19,5 +19,20 @@ login.addEventListener("click", function(){
      alert("Acesso negado.")
 });
         
+var show = document.getElementById("show");
+
+show.addEventListener("click", function(){
+
+    var passwordLogin = document.getElementById("passwordLogin");
+
+    var type = passwordLogin.getAttribute("type");
+
+    if(type === "password"){
+      passwordLogin.setAttribute("type", "text"); 
+    } else {
+        passwordLogin.setAttribute("type", "password"); 
+    }
+
+});
 
 
