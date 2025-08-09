@@ -8,13 +8,22 @@
     <title>Cadastrar</title>
 </head>
 <body>
+
+    <h1>Cadastre-se aqui</h1>
     <form>
         <div class="inputs">
             <input type="text" id="name" placeholder="Nome" required>
             <input type="text" id="userRegister" placeholder="Usuário" required>
             <input type="password" id="passwordRegister" placeholder="Senha" required>
         </div>
+
+        <div class="show" id="show">
+            <input type="checkbox" id="showPassword">
+            <label for="showPassword">Mostrar Senha</label>
+        </div> 
+
         <button type="button" id="register">Cadastrar</button>
+
         <div class="smalls">
             <small>Esqueceu a senha recupere <a href="./reset.html">aqui</a>.</small>
             <small>Já sou Cadastrado. Entre <a href="./login.html">aqui</a>.</small>

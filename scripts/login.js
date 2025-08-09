@@ -21,7 +21,7 @@ login.addEventListener("change", function(){
         
 var show = document.getElementById("show");
 
-show.addEventListener("click", function(){
+show.addEventListener("change", function(){
 
     var passwordLogin = document.getElementById("passwordLogin");
 

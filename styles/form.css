@@ -18,6 +18,12 @@ body {
   align-items: center;
 }
 
+h1 {
+  font-size: 25px;
+  color: #403e3e;
+  margin-bottom: 20px;
+}
+
 form {
   width: 400px;
 
